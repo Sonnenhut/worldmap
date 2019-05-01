@@ -1,4 +1,4 @@
-import {countryName, countryMap} from './countryname.js';
+import {countryName} from './countryName.js';
 
 google.charts.load('current', {
     'packages':['geochart']
