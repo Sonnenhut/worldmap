@@ -27,7 +27,6 @@ function draw() {
 }
 
 function onRegionClick(clicked) {
-    console.log(clicked);
     const key = clicked.region;
     const lengthBefore = data.length;
     data = data.filter(d => d[0] !== key);
